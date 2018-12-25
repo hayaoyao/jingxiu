@@ -1,0 +1,169 @@
+.brief{
+	width:100%;
+	padding-top:127px;
+}
+.brief>.min_width{
+	max-width:1025px;
+	min-width:300px;
+	margin:0 auto;
+}
+.brief>.min_width>.brief_first{
+		width:26.634146%;
+	float:left;
+	border-right:1px solid #bababa;
+	box-sizing:border-box;
+}
+.brief>.min_width>.brief_first>h3{
+	width:100%;
+	height:80px;
+	padding-right:6.273062%;
+	line-height:80px;
+	font-weight:200;
+	box-sizing:border-box;
+}
+.brief>.min_width>.brief_first h3>a{
+	width:100%;
+	display:block;
+	line-height:80px;
+	font-size:21px;
+	color:#222222;
+	padding-left:76px;
+	box-sizing:border-box;
+}
+.brief>.min_width>.brief_first h3:first-of-type>a{
+	background:url(../images/xygk_03.jpg) no-repeat 20px 20px;
+	border-bottom:4px solid #fa9634;
+}
+.brief>.min_width>.brief_first h3:last-of-type>a{
+	background:url(../images/xygk_06.jpg) no-repeat 20px 20px;	
+}
+.brief>.min_width>.brief_first h3:last-of-type>a:hover{
+	background:url(../images/xygk_07.jpg) no-repeat 20px 20px;	
+	border-bottom:4px solid #fa9634;
+}
+.brief>.min_width>.brief_second{
+	width:73.365853%;
+	float:left;
+	padding-left:48px;
+	box-sizing:border-box;
+	padding-bottom:79px;
+}
+.brief>.min_width>.brief_second p{
+	line-height:29px;
+	font-size:17px;
+	color:#333;
+	text-indent:32px;
+}
+.brief>.min_width>.brief_second .pic{
+	width:95.0957%;
+	padding-top:16px;
+	padding-bottom:34px;
+}
+.brief>.min_width>.brief_second .pic img{
+	width:100%;
+}
+/*二*/
+.brief>.min_width>.brief_first>h3:first-of-type .no{
+	background:url(../images/xygk_02.jpg)no-repeat 20px 20px;
+	border:0;
+}
+.brief>.min_width>.brief_first>h3:first-of-type .no:hover{
+	background:url(../images/xygk_03.jpg)no-repeat 20px 20px;
+	border-bottom:4px solid #fa9634;
+}
+.brief>.min_width>.brief_second>h4{
+	font-size:17px;
+	color:#fa9634;
+}
+.brief>.min_width>.brief_first>h3:last-of-type .show{
+	background:url(../images/xygk_07.jpg)no-repeat 20px 20px;
+	border-bottom:4px solid #fa9634;
+}
+@media screen and (max-width:1000px){
+	.brief{
+		padding-top:32px;
+	}
+	.brief>.min_width>.brief_first>h3 a{
+		font-weight:100;
+	}		
+}
+@media screen and (max-width:760px){
+	.brief>.min_width{
+		width:94.37751%;
+		margin:0 auto;
+	}
+    .brief>.min_width>.brief_first{
+    	width:100%;
+    	float:none;
+    	border:0;
+    	padding-bottom:5%;
+    }
+    .brief>.min_width>.brief_first>h3{
+    	float:left;
+    	width:50%;
+    	height:94px;
+    	padding-right:0;
+    }
+    .brief>.min_width>.brief_first>h3 a{
+    	height:94px;
+    	line-height:135px;
+    	padding-left:0;
+    	text-align:center;
+    	font-size:18px;
+    }
+    
+   .brief>.min_width>.brief_second p{
+     	font-size:16px;
+   }
+    .brief>.min_width>.brief_first h3:first-of-type>a{
+	    background:url(../images/xygk_03.jpg) no-repeat center 0;
+	    border-bottom:4px solid #fa9634;
+    }
+    .brief>.min_width>.brief_first h3:first-of-type>a:hover{
+        border:0;  	
+    }
+    .brief>.min_width>.brief_first h3:last-of-type>a{
+	   background:url(../images/xygk_06.jpg) no-repeat center 0;	
+    }
+    .brief>.min_width>.brief_first h3:last-of-type>a:hover{
+    	border:0;
+    	background:url(../images/xygk_07.jpg) no-repeat center 0;	
+    }
+    .brief>.min_width>.brief_second{
+    	float:none;
+    	width:100%;
+    	padding-left:0;
+    }
+    .brief>.min_width>.brief_first>h3:last-of-type .show{
+    	background:url(../images/xygk_07.jpg)no-repeat center 0;
+    }
+    .brief>.min_width>.brief_first>h3:last-of-type .no:hover{
+    	background:url(../images/xygk_06.jpg) no-repeat center 0;
+    }    
+    .brief>.min_width>.brief_first>h3:first-of-type .no{
+    	background:url(../images/xygk_02.jpg)no-repeat center 0;
+    }
+    .brief>.min_width>.brief_first>h3:first-of-type .no:hover{
+    	background:url(../images/xygk_02.jpg)no-repeat center 0;
+    	border:0;
+    }
+}
+@media screen and (max-width:480px){
+	*{
+		font-family:"宋体";
+	}
+	.brief{
+		padding-top:90px;
+	}
+	.brief>.min_width>.brief_first>h3>a{
+		font-size:17px;
+		font-weight:100;
+	}
+	.brief > .min_width > .brief_second p{
+		font-size:14px;
+	}
+	.brief>.min_width>.brief_second>h4{
+		padding-bottom:2%;
+		padding-top:2%;
+	}
+}

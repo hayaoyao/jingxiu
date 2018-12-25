@@ -1,0 +1,271 @@
+.brief{
+	width:100%;
+	padding-top:127px;
+}
+.brief>.min_width{
+	max-width:1025px;
+	min-width:300px;
+	margin:0 auto;
+}
+.brief>.min_width>.brief_first{
+	width:26.634146%;
+	float:left;
+	border-right:1px solid #bababa;
+	box-sizing:border-box;
+}
+.brief>.min_width>.brief_first>h3{
+	width:100%;
+	height:80px;
+	padding-right:6.273062%;
+	line-height:80px;
+	box-sizing:border-box;
+	font-weight:200;
+}
+.brief>.min_width>.brief_first h3>a{
+	width:100%;
+	display:block;
+	line-height:80px;
+	font-size:21px;
+	color:#222222;
+	padding-left:70px;
+	box-sizing:border-box;
+}
+.brief>.min_width>.brief_first h3:first-of-type>a{
+	background:url(../images/service_03.jpg) no-repeat 20px 20px;
+}
+.brief>.min_width>.brief_first h3:first-of-type>a:hover{
+	border-bottom:4px solid #fa9634;
+	background:url(../images/service_04.jpg) no-repeat 20px 20px;
+}
+.brief>.min_width>.brief_first h3:nth-of-type(2)>a{
+	background:url(../images/service_05.jpg) no-repeat 20px 20px;	
+}
+.brief>.min_width>.brief_first h3:nth-of-type(2)>a:hover{
+	background:url(../images/service_06.jpg) no-repeat 20px 20px;	
+	border-bottom:4px solid #fa9634;
+}
+.brief>.min_width>.brief_first h3:nth-of-type(3)>a{
+	background:url(../images/service_08.jpg) no-repeat 20px 20px;	
+}
+.brief>.min_width>.brief_first h3:nth-of-type(3)>a:hover{
+	background:url(../images/service_09.jpg) no-repeat 20px 20px;	
+	border-bottom:4px solid #fa9634;
+}
+.brief>.min_width>.brief_first h3:last-of-type>a{
+	background:url(../images/service_10.jpg) no-repeat 20px 20px;	
+}
+.brief>.min_width>.brief_first h3:last-of-type>a:hover{
+	background:url(../images/service_11.jpg) no-repeat 20px 20px;	
+	border-bottom:4px solid #fa9634;
+}
+/*teshu*/
+.brief>.min_width>.brief_first h3:first-of-type>.flow{
+	background:url(../images/service_04.jpg) no-repeat 20px 20px;
+	border-bottom:4px solid #fa9634;
+}
+.brief>.min_width>.brief_first h3:nth-of-type(2)>.problem{
+	background:url(../images/service_06.jpg) no-repeat 20px 20px;
+	border-bottom:4px solid #fa9634;	
+}
+.brief>.min_width>.brief_first h3:nth-of-type(3)>.take{
+	background:url(../images/service_09.jpg) no-repeat 20px 20px;
+	border-bottom:4px solid #fa9634;	
+}
+.brief>.min_width>.brief_first h3:last-of-type>.take{
+	background:url(../images/service_11.jpg) no-repeat 20px 20px;
+	border-bottom:4px solid #fa9634;	
+}
+/*teshu*/
+.brief>.min_width>.brief_second{
+	width:73.365853%;
+	float:left;
+	padding-left:48px;
+	box-sizing:border-box;
+	padding-bottom:79px;
+}
+.brief>.min_width>.brief_second p{
+	line-height:29px;
+	font-size:17px;
+	color:#000000;
+}
+.brief>.min_width>.brief_second .pic{
+	width:95.0957%;
+	padding-top:16px;
+	padding-bottom:34px;
+}
+.brief>.min_width>.brief_second .pic img{
+	width:100%;
+}
+.brief>.min_width>.brief_second>h4{
+	font-size:20px;
+	height:56px;
+	padding-top:10px;
+	box-sizing:border-box;
+	/*line-height:56px;*/
+	color:#fa9634;
+}
+.brief>.min_width>.brief_second>h4>span{
+	font-size:14px;
+	color:#000000;
+	font-weight:100;
+}
+.brief>.min_width>.brief_second>h5{
+	font-size:18px;
+	padding-top:10px;
+	line-height:31px;
+}
+.brief>.min_width>.brief_second>h6{
+	line-height:31px;
+	font-size:17px;
+}
+.brief>.min_width>.brief_second>h6>span{
+	font-weight:100;
+}
+.brief>.min_width>.brief_second>.span span{
+	font-weight:bold;
+	display:block;
+	float:left;
+	font-size:25px;
+	padding-left:5%;
+}
+/*二*/
+@media screen and (max-width:1000px){
+	.brief{
+		padding-top:95px;
+	}	
+	.brief>.min_width>.brief_first>h3 a{
+		font-weight:100;
+	}
+	.brief>.min_width>.brief_second>.span span{
+		font-size:18px;
+	}	    	
+}
+@media screen and (max-width:760px){
+	.brief>.min_width{
+		width:94.37751%;
+		margin:0 auto;
+	}
+    .brief>.min_width>.brief_first{
+    	width:100%;
+    	float:none;
+    	border:0;
+    }
+    .brief>.min_width>.brief_first>h3{
+    	float:left;
+    	width:25%;
+    	height:94px;
+    	padding-right:0;
+    }
+    .brief>.min_width>.brief_first>h3 a{
+    	height:94px;
+    	line-height:135px;
+    	padding-left:0;
+    	text-align:center;
+    	font-size:18px;
+    }
+    
+    .brief>.min_width>.brief_second p{
+    	font-size:16px;
+    }
+    .brief>.min_width>.brief_second>.span{
+    	width:100%;
+    }
+    .brief>.min_width>.brief_first h3:first-of-type>a{
+	    background:url(../images/service_03.jpg) no-repeat center 0;
+    }
+    .brief>.min_width>.brief_first h3:first-of-type>a:hover{
+    	background:url(../images/service_03.jpg) no-repeat center 0;
+        border:0;  	
+    }
+     .brief>.min_width>.brief_first h3:nth-of-type(2)>a{
+     	background:url(../images/service_05.jpg) no-repeat center 0;
+     }
+     .brief>.min_width>.brief_first h3:nth-of-type(2)>a:hover{
+     	background:url(../images/service_05.jpg) no-repeat center 0;
+     	border:0;
+     }
+     .brief>.min_width>.brief_first h3:nth-of-type(3)>a{
+     	background:url(../images/service_08.jpg) no-repeat center 0;
+     }
+     .brief>.min_width>.brief_first h3:nth-of-type(3)>a:hover{
+     	background:url(../images/service_08.jpg) no-repeat center 0;
+     	border:0;
+     }
+    .brief>.min_width>.brief_first h3:last-of-type>a{
+	   background:url(../images/service_10.jpg) no-repeat center 0;	
+    }
+    .brief>.min_width>.brief_first h3:last-of-type>a:hover{
+    	border:0;
+    	background:url(../images/service_10.jpg) no-repeat center 0;	
+    }
+    .brief>.min_width>.brief_second{
+    	float:none;
+    	width:100%;
+    	padding-left:0;
+    }
+    .brief>.min_width>.brief_first h3:first-of-type>.flow{
+		background:url(../images/service_04.jpg) no-repeat center 0;
+		border-bottom:4px solid #fa9634;
+    }
+    .brief>.min_width>.brief_first h3:first-of-type>.flow:hover{
+        background:url(../images/service_04.jpg) no-repeat center 0;	
+    }
+    .brief>.min_width>.brief_first h3:nth-of-type(2)>.problem{
+	    background:url(../images/service_06.jpg) no-repeat center 0;
+	    border-bottom:4px solid #fa9634;	
+   }
+   .brief>.min_width>.brief_first h3:nth-of-type(2)>.problem:hover{
+   	    background:url(../images/service_06.jpg) no-repeat center 0;	
+   }
+   .brief>.min_width>.brief_first h3:nth-of-type(3)>.route{
+	    background:url(../images/service_09.jpg) no-repeat center 0;
+	    border-bottom:4px solid #fa9634;	
+   }
+   .brief>.min_width>.brief_first h3:nth-of-type(3)>.route:hover{
+     	background:url(../images/service_09.jpg) no-repeat center 0;
+   }
+   .brief>.min_width>.brief_first h3:last-of-type>.take{
+    	background:url(../images/service_11.jpg) no-repeat center 0;
+	    border-bottom:4px solid #fa9634;	
+   }
+   .brief>.min_width>.brief_first h3:last-of-type>.take:hover{
+    	background:url(../images/service_11.jpg) no-repeat center 0;
+   }
+}
+@media screen and (max-width:480px){
+	.brief>.min_width>.brief_first>h3>a{
+		font-size:16px;
+		font-weight:100;
+		text-align:center;
+	}
+	.brief > .min_width > .brief_first{
+		padding-bottom:10px;
+	}
+	.brief > .min_width > .brief_second > h4{
+		font-size:16px;
+		height:60px;
+	}
+	.brief > .min_width > .brief_second > h4:first-of-type{
+		height:40px;
+	}
+	.brief > .min_width > .brief_second > h4:nth-of-type(2){
+		height:40px;
+	}
+	.brief > .min_width > .brief_second > h4:nth-of-type(9){
+		height:75px;
+	}
+	.brief > .min_width > .brief_second > h4:nth-of-type(11){
+		height:35px;
+	}
+	.brief > .min_width > .brief_second p{
+		font-size:14px;
+	}
+	.brief > .min_width > .brief_second > h4 > span{
+		display:block;
+		padding-left:15%;
+		padding-top:4%;
+	}
+	*{
+		font-family:"宋体";
+	}	
+}

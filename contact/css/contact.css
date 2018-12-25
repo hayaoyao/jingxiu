@@ -1,0 +1,88 @@
+.address{
+	width:100%;
+	padding-top: 127px;
+}
+.address>.min_width{
+	max-width:1000px;
+	min-width:300px;
+	margin:0 auto;
+}
+.address>.min_width>h4{
+	color:#fa9634;
+    font-size:20px;
+    height:51px;
+    line-height:51px;
+    text-align:center;
+}
+.address>.min_width>p{
+	text-align:center;
+	line-height:47px;
+}
+.address>.min_width>.p{
+	font-size:25px;
+	font-weight:bold;
+	line-height:47px;
+	text-align:center;
+}
+.address>.min_width>.span{
+	padding-left:17%;
+}
+.address>.min_width>.span span{
+	display:block;
+	float:left;
+	font-size:25px;
+	font-weight:bold;
+	padding-left:7%;
+}
+.address>.min_width>.pic{
+	width:66.9%;
+	height:400px;
+	padding-left:10%;
+}
+.address>.min_width>.pic>img{
+	width:100%;
+}
+@media screen and (max-width:1000px ) {
+	*{
+		font-size:"Microsoft Yahei";
+	}
+	.address{
+		padding-top:30px;
+	}
+}
+@media screen and (max-width:780px ){
+	.address>.min_width{
+		width:100%;
+		margin:0 auto;
+	}
+}
+@media screen and (max-width:888px ){
+	.address>.min_width>.span{
+		padding-left:11%;
+	}
+}
+@media screen and (max-width:480px ){
+	*{
+		font-family:"宋体";
+	}
+	.address{
+		width:90%;
+		margin:0 auto 100px auto;
+	}
+	.address > .min_width{
+		
+	}
+	.address > .min_width > .p{
+		font-size:18px;
+	}
+	.address>.min_width{
+		width:100%;
+	}
+	.address>.min_width>.span>.end{
+		padding-left:30%;
+	}
+	.address>.min_width>.span span{
+		padding-left:30%;
+		font-size:18px;
+	}
+}

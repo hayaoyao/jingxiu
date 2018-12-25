@@ -1,0 +1,296 @@
+header{
+	width:100%;
+	height:80px;
+	background:#333333;
+	position:fixed;
+	z-index:10000;
+}
+header .min_width{
+	max-width:1000px;
+	height:80px;
+	min-width:300px;
+	margin:0 auto;
+}
+header p{
+	display:none;
+	font-size:37px;
+	color:white;
+	position:absolute;
+	left:40.31125%;
+	top:15px;
+	color:#f2fff7;
+	transition:all .3s;
+}
+header h1{
+	float:left;
+	width:17.2%;
+	padding-top:11px;
+}
+header h1>a{
+	display:block;
+	float:left;
+}
+header .max_nav{
+	height:80px;
+	width:71.6%;
+	float:right;
+	padding-right:17px;
+}
+header .max_nav>li{
+	float:left;
+	cursor:pointer;
+	width:12.7572016%;
+	text-align:center;
+}
+header .max_nav>li:first-of-type{
+	width:8.64197530%;
+}
+.index{
+	background:#5c5c5c;
+}
+header .max_nav>.epitome{
+	background:#5c5c5c;
+}
+.min_nav>.epitome{
+	background:#5c5c5c;
+}
+header .max_nav>.set{
+	background:#5c5c5c;
+}
+.min_nav>.set{
+	background:#5c5c5c;
+}
+header .max_nav>.mien{
+	background:#5c5c5c;
+}
+.min_nav>.mien{
+	background:#5c5c5c;
+}
+header .max_nav>.works{
+	background:#5c5c5c;
+}
+header .max_nav>.power{
+	background:#5c5c5c;
+}
+.min_nav>.power{
+	background:#5c5c5c;
+}
+header .max_nav>.serve{
+	background:#5c5c5c;
+}
+.min_nav>.serve{
+	background:#5c5c5c;
+}
+header .max_nav>.contact{
+	background:#5c5c5c;
+}
+.min_nav>.contact{
+	background:#5c5c5c;
+}
+header .max_nav>li>a{
+	display:block;
+	height:80px;
+	font-size:15px;
+	color:white;
+	line-height:80px;
+}
+header .max_nav>li:hover{
+	background:#5c5c5c;
+}
+header .button{
+	position:absolute;
+	color:white;
+	width:120px;
+	height:40px;
+	border:1px solid #666666;
+	border-radius:5px;
+	background:#333333;
+	font-size:16px;
+	padding-left:1.3333333%;
+	line-height:40px;
+	right:4.828125%;
+	top:19px;
+	display:none;
+	box-sizing:border-box;
+	cursor:pointer;
+}
+header .button:hover{
+	background:#666666;
+}
+header .button span{
+	display:block;
+	width:25.8333333%;
+	height:4px;
+	border-bottom:1px solid #4d4d4d;
+	background:white;
+	float:left;
+	position:absolute;  
+	left:65%;
+    top:48%;
+}
+header .button span:after{
+	content: " ";
+	display: block;
+	width:100%;
+	height:4px;
+	background: #fff;
+	position: absolute;
+	
+}
+header div span:before{
+	content: " ";
+	display: block;
+	width:100%;
+	height:4px;
+	background: #fff;
+	position: absolute;	
+}
+header .button span:after{
+	top: 8px;
+}
+header .button span:before{
+	bottom: 8px;
+}
+.min_nav{
+	width:100%;
+	background:#333333;
+	border-top:3px solid #cdcdcd;
+	border-bottom:3px solid #cdcdcd;
+}
+.none{
+	display:none;
+}
+.min_nav li{
+	float:left;
+	width:11.5%;
+	margin-right:1.1333333%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+}
+.min_nav li a{
+	display:block;
+	font-size:15px;
+	color:white;
+}
+.min_nav li a:hover{
+	color:#fa9634;
+	background:#5c5c5c;
+}
+.min_nav li:last-of-type{
+	margin-right:0;
+}
+.contact{
+	display:none;
+	position:absolute;
+	right:10px;
+	top:79px;
+	background:white;
+	color:#333;
+	border-radius:3px;
+	z-index:10;
+	width:96%;
+	border:1px solid #CCCCCC;
+}
+.contact li{	
+	float:left;
+	width:25%;
+}
+.contact li a{
+	color:#333;	
+	display:block;
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.contact img{
+	width:20px;
+	position:absolute;
+	top:-12px;
+	right:22px;
+	z-index:1;
+}
+/*断点*/
+@media screen and (max-width:1000px){
+	*{
+		font-size:"Microsoft Yahei";
+	}	
+	header .max_nav{	
+		display:none;
+	}
+	header h1{
+		padding-left:5%;
+	}
+	header p{
+		display:block;
+	}
+	header .button{
+		display:block;
+	}
+	.contact{
+		display:block;
+	}	
+	header{
+    	position:relative;
+    }	
+    
+}
+@media screen and (max-width:761px){
+	header p{
+		font-size:29px;
+		color:#E9E9E9;
+		font-weight:100;
+		top:17.4%;
+		left:39%;
+	}
+	header .button{
+		width:103px;
+		height:35px;
+		line-height:34px;
+	}
+	header h1{
+		padding-top:3%;
+	}	
+	header h1 img{
+	width:100%;
+    }
+    .min_nav li{
+    	width:24.1%;
+    	height:40px;
+    	line-height:40px;
+    }
+    .min_nav li a{
+    	height:40px;
+    }
+    .min_nav li:nth-of-type(4){
+    	margin-right:0;
+    }
+}
+@media screen and (max-width:580px){
+	header .min_width>p{
+		font-size:23px;
+		top:20px;
+		left:42%;
+	}	
+}
+@media screen and (max-width:480px){
+	header{
+		height:65px;
+		position:fixed;
+	}
+	header>.min_width{
+		height:70px;
+	}
+	header h1{
+		width:84px;
+		padding-left:12px;
+	}
+	header .min_width>p{
+		font-size:23px;
+		top:25%;
+		left:39%;
+	}
+	header .button{
+		display:none;
+	}
+}

@@ -1,0 +1,57 @@
+body{
+  font-family: "Microsoft Yahei";
+}
+a{
+ color: #333333;	
+}
+em{
+	font-style: normal;
+	font-size: 14px;
+  color: #df2f30;;
+}	
+p{
+	display: block;
+}	
+body,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,figure{
+	margin:0;
+	padding: 0;
+}
+ul,li,h1,h2,h3,h4,h5,h6,ol,article,aside,header,footer,figure,figcaption,form,label,fieldset,legend,iframe,frameset,frame{display:block}
+ul,ol{
+	list-style: none;
+}
+
+img{
+	/*解决3px留白问题*/
+	border: 0;
+	vertical-align: middle;
+}
+/*版心   一次定义多次使用*/
+/*.w{
+	width: 1190px;
+	margin:auto;
+}
+.fr{
+	float: right;
+}
+.f1{
+	float: left;
+}	*/
+a{
+	text-decoration: none;
+
+}
+
+.clearfix:after{
+				content:'.';
+				line-height: 0;
+				height: 0;
+				display: block;
+				visibility: hidden;
+				clear:both;
+}
+body{
+	font-size: 16px;
+	font-family: "microsoft yahei";
+}
+/*------首页样式----------*/

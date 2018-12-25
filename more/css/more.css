@@ -1,0 +1,188 @@
+.more{
+	width:100%;
+	padding-top:100px;
+}
+.more .min_width{
+	max-width:80%;
+	min-width:300px;
+	margin:0 auto;
+}
+.more .min_width ul li{
+	padding-bottom:10px;
+}
+.more .min_width ul li h2{
+	width:50%;
+	color:#333;
+	border-bottom:0;
+	border-radius:5%;
+}
+.more .min_width ul li div{
+	width:100%;
+	/*height:100px;*/
+}
+.more .min_width ul li div a{
+	width:25%;
+	height:100px;
+	display:block;
+	text-align:center;
+	line-height:140px;
+	box-sizing:border-box;
+	float:left;
+}
+.more .min_width ul li:last-of-type{
+	padding-bottom:100px;
+}
+.more .min_width ul li div a span{
+	display:inline-block;
+}
+.more .min_width ul li:first-of-type div a:first-of-type{
+	background:url(../../epitome/images/xygk_03.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:first-of-type div a:first-of-type:hover{
+	background:url(../../epitome/images/xygk_03.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:first-of-type div a:last-of-type{
+	background:url(../../epitome/images/xygk_06.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:first-of-type div a:last-of-type:hover{
+	background:url(../../epitome/images/xygk_07.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:first-of-type{
+	background:url(../../set/images/left_link_02.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:first-of-type:hover{
+	background:url(../../set/images/left_link_03.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:nth-of-type(2){
+	background:url(../../set/images/left_link_06.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:nth-of-type(2):hover{
+	background:url(../../set/images/left_link_07.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:nth-of-type(3){
+	background:url(../../set/images/left_link_08.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:nth-of-type(3):hover{
+	background:url(../../set/images/left_link_09.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:nth-of-type(4){
+	background:url(../../set/images/left_link_10.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:nth-of-type(4):hover{
+	background:url(../../set/images/left_link_11.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:nth-of-type(5){
+	background:url(../../set/images/left_link_12.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:nth-of-type(5):hover{
+	background:url(../../set/images/left_link_13.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:nth-of-type(6){
+	background:url(../../set/images/left_link_14.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:nth-of-type(6):hover{
+	background:url(../../set/images/left_link_15.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:nth-of-type(7){
+	background:url(../../set/images/left_link_16.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:nth-of-type(7):hover{
+	background:url(../../set/images/left_link_17.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:last-of-type{
+	background:url(../../set/images/left_link_18.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(2) div a:last-of-type:hover{
+	background:url(../../set/images/left_link_19.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(3) div a:first-of-type{
+	background:url(../../mien/images/xsjx_1.gif) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(3) div a:first-of-type:hover{
+	background:url(../../mien/images/xsjx.gif) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(3) div a:nth-of-type(2){
+	background:url(../../mien/images/hy_1.gif) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(3) div a:nth-of-type(2):hover{
+	background:url(../../mien/images/hy.gif) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(3) div a:nth-of-type(3){
+	background:url(../../mien/images/ydh_1.gif) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(3) div a:nth-of-type(3):hover{
+	background:url(../../mien/images/ydh.gif) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(3) div a:nth-of-type(4){
+	background:url(../../mien/images/dxs_.gif) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(3) div a:nth-of-type(4):hover{
+	background:url(../../mien/images/dxs.gif) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(3) div a:nth-of-type(5){
+	background:url(../../mien/images/hj_1.gif) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(3) div a:nth-of-type(5):hover{
+	background:url(../../mien/images/hj.gif) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(3) div a:nth-of-type(6){
+	background:url(../../mien/images/sdwh_1.gif) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(3) div a:nth-of-type(6):hover{
+	background:url(../../mien/images/sdwh.gif) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(4) div a:first-of-type{
+	background:url(../../serve/images/service_03.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(4) div a:first-of-type:hover{
+	background:url(../../serve/images/service_04.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(4) div a:nth-of-type(2){
+	background:url(../../serve/images/service_05.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(4) div a:nth-of-type(2):hover{
+	background:url(../../serve/images/service_06.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(4) div a:nth-of-type(3){
+	background:url(../../serve/images/service_08.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(4) div a:nth-of-type(3):hover{
+	background:url(../../serve/images/service_09.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(4) div a:nth-of-type(4){
+	background:url(../../serve/images/service_10.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:nth-of-type(4) div a:nth-of-type(4):hover{
+	background:url(../../serve/images/service_11.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:last-of-type div a:nth-of-type(1){
+	background:url(../../contact/images/2_03_01.jpg) no-repeat 50% 10px;
+}
+.more .min_width ul li:last-of-type div a:nth-of-type(1):hover{
+	background:url(../../contact/images/3_02.jpg) no-repeat 50% 10px;
+}
+@media screen and (max-width:1000px){
+	.more{
+		padding-top:30px;
+	}
+}
+@media screen and (max-width:660px) {
+	.more .min_width ul li div a{
+		font-size:14px;
+	}
+	.more .min_width ul li div a span{
+		display:none;
+	}
+}
+@media screen and (max-width:480px){
+	*{
+		font-family:"宋体";
+	}
+	.more{
+		padding-top:90px;
+	}
+	.more .min_width ul li h2{
+		font-size:16px;
+		/*font-weight:500;*/
+	}
+}
